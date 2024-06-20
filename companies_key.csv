@@ -97,12 +97,11 @@ TLNE,Camden,East,PJM,Gas CCGT,10751,145,ACE
 TLNE,Colstrip,East,NWMT,Coal,6076,"1,518",Mountain
 TLNE,Dartmouth,East,ISO-NE,Gas CCGT/ST/CT,52026,80,MA (SE)
 Heritage Power,Shawville,,PJM,Gas-Oil ST/CT,3131,590,PENELEC
-Heritage Power,Gilbert,,PJM,Gas CCGT/ST/CT,2393,332,JCPL
+Heritage Power,Gilbert,,PJM,Gas CCGT/ST/CT,2393,499,JCPL
 Heritage Power,New Castle,,PJM,Gas-Oil ST/CT,3138,320,ATSI
 Heritage Power,Brunot Island,,PJM,Gas CCGT/ST/CT,3096,279,DUQ
 Heritage Power,Sayreville,,PJM,Gas-Oil ST/CT,2390,280,PSEG
 Heritage Power,Portland,,PJM,Gas-Oil ST/CT,3113,190,METED
-Heritage Power,Gilbert,,PJM,Gas CCGT/ST/CT,2393,167,JCPL
 Heritage Power,Hunterstow n,,PJM,Gas-Oil ST/CT,3110,60,METED
 Heritage Power,Warren,,PJM,Gas-Oil ST/CT,3132,50,PENELEC
 Heritage Power,Mountain,,PJM,Gas-Oil ST/CT,3111,50,PPL
