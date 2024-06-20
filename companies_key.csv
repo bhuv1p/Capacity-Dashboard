@@ -57,7 +57,7 @@ NRG,Indian River(e),  East ,PJM,Coal/Gas-Oil ST/CT,594,426,DPL
 NRG,Joliet(f),  East ,PJM,Gas-Oil ST/CT,50627,1381,COMED
 NRG,Powerton,  East ,PJM,Coal,879,1538,COMED
 NRG,Vienna,  East ,PJM,Gas-Oil ST/CT,1564,167,DPL
-NRG,Waukegan,  East ,PJM,Coal/Oil,883,783,COMED
+NRG,Waukegan,  East ,PJM,Coal/Gas-Oil ST/CT,883,783,COMED
 NRG,Will County,  East ,PJM,Coal,884,510,COMED
 NRG,Cottonwood, West/Services/Other ,MISO,Gas CCGT,55358,1166,Zone 9
 NRG, Watson , Unconsolidated , CAISO ,Gas CCGT,50216,416,LADWP
