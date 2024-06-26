@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Dashboard</title>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            background-color: #053b75; /* Light blue background */
+            color: #333; /* Darker text color for better contrast */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+            width: 90%;
+            max-width: 1000px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #053b75; /* Blue heading color */
+        }
+
+        .dropdown {
+            margin: 10px 0;
+        }
+
+        #chart-container,
+        #chart-container2 {
+            width: 80%; /* Reduce width to center */
+            margin: 20px auto; /* Center align */
+            border: 1px solid #ddd; /* Thin border for charts */
+        }
+
+        #chart-container {
+            height: 500px;
+        }
+
+        #chart-container2 {
+            height: 400px;
+        }
+
+        #chart,
+        #chart2 {
+            width: 100%;
+            height: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px; /* Add space between forms */
+        }
+
+        form label {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Energy Dashboard</h1>
+        <form id="inputForm">
+            <label for="company">Company:</label>
+            <select id="company" name="company"></select>
+
+            <label for="iso">ISO:</label>
+            <select id="iso" name="iso"></select>
+        </form>
+        <div id="chart-container">
+            <img id="chart" src="" alt="Chart will appear here">
+        </div>
+        <form id="inputForm2">
+            <label for="company2">Company:</label>
+            <select id="company2" name="company"></select>
+
+            <label for="iso2">ISO:</label>
+            <select id="iso2" name="iso"></select>
+        </form>
+        <div id="chart-container2">
+            <img id="chart2" src="" alt="Chart will appear here">
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            populateDropdowns();
+
+            // Add event listeners to dropdowns for the first form
+            document.getElementById('company').addEventListener('change', handleFormChange);
+            document.getElementById('iso').addEventListener('change', handleFormChange);
+
+            // Add event listeners to dropdowns for the second form
+            document.getElementById('company2').addEventListener('change', handleFormChange2);
+            document.getElementById('iso2').addEventListener('change', handleFormChange2);
+        });
+
+        async function populateDropdowns() {
+            try {
+               const response = await fetch('http://127.0.0.1:5000/get_options');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log('Received data:', data);
+                
+                const companyDropdown = document.getElementById('company');
+                const isoDropdown = document.getElementById('iso');
+
+                const companyDropdown2 = document.getElementById('company2');
+                const isoDropdown2 = document.getElementById('iso2');
+
+                // Sort options in descending order
+                data.companies.sort((a, b) => b.localeCompare(a));
+                data.isos.sort((a, b) => b.localeCompare(a));
+
+                // Add sorted options to the dropdowns
+                data.companies.forEach(company => {
+                    const option = document.createElement('option');
+                    option.value = company;
+                    option.textContent = company;
+                    companyDropdown.appendChild(option);
+                });
+
+                data.companies.forEach(company => {
+                    const option = document.createElement('option');
+                    option.value = company;
+                    option.textContent = company;
+                    companyDropdown2.appendChild(option);
+                });
+
+                data.isos.forEach(iso => {
+                    const option = document.createElement('option');
+                    option.value = iso;
+                    option.textContent = iso;
+                    isoDropdown.appendChild(option);
+                });
+
+                data.isos.forEach(iso => {
+                    const option = document.createElement('option');
+                    option.value = iso;
+                    option.textContent = iso;
+                    isoDropdown2.appendChild(option);
+                });
+
+            } catch (error) {
+                console.error('Error fetching options:', error);
+            }
+        }
+
+        async function handleFormChange(event) {
+            event.preventDefault();
+            const formData = new FormData(document.getElementById('inputForm'));
+            const formJSON = Object.fromEntries(formData.entries());
+            formJSON.company = Array.from(document.getElementById('company').selectedOptions).map(option => option.value);
+            formJSON.iso = Array.from(document.getElementById('iso').selectedOptions).map(option => option.value);
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/plot_capacity_factor', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formJSON)
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const result = await response.json();
+                document.getElementById('chart').src = 'data:image/png;base64,' + result.image;
+            } catch (error) {
+                document.getElementById('chart').innerText = `Error: ${error.message}`;
+            }
+        }
+
+        async function handleFormChange2(event) {
+            event.preventDefault();
+            const formData = new FormData(document.getElementById('inputForm2'));
+            const formJSON = Object.fromEntries(formData.entries());
+            formJSON.company = Array.from(document.getElementById('company2').selectedOptions).map(option => option.value);
+            formJSON.iso = Array.from(document.getElementById('iso2').selectedOptions).map(option => option.value);
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/plot_by_type', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formJSON)
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const result = await response.json();
+                document.getElementById('chart2').src = 'data:image/png;base64,' + result.image;
+            } catch (error) {
+                document.getElementById('chart2').innerText = `Error: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
