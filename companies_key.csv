@@ -1,114 +1,114 @@
 ﻿Company,Plant Name,Company Segment,ISO,Type,Plant ID,Capacity(MW),ISO Sub Zone,Primary Type
-VST,Martin lake,Texas,ERCOT,Coal,6146,2250,North,Coal
-VST,Forney,Texas,ERCOT,Gas CCGT,55480,1912,North,Gas CCGT
-VST,Oak Grove,Texas,ERCOT,Coal,6180,1600,North,Coal
-VST,Midlothian,Texas,ERCOT,Gas CCGT,55091,1596,North,Gas CCGT
+VST,Martin lake,Texas,ERCOT,Coal,6146,2380,North,Coal
+VST,Forney,Texas,ERCOT,Gas CCGT,55480,1894,North,Gas CCGT
+VST,Oak Grove,Texas,ERCOT,Coal,6180,1795,North,Coal
+VST,Midlothian,Texas,ERCOT,Gas CCGT,55091,1734,North,Gas CCGT
 VST,Hanging Rock,East,PJM,Gas CCGT,55736,1430,AEP,Gas CCGT
-VST,Kendall,East,PJM,Gas CCGT,55131,1288,COMED,Gas CCGT
-VST,Independence,East,NYISO,Gas CCGT,54547,1212,ME,Gas CCGT
-VST,Baldwin - MISO,Sunset,MISO,Coal,889,1185,Zone 4,Coal
-VST,Kincaid,Sunset,PJM,Coal,876,1108,COMED,Coal
-VST,Lamar,Texas,ERCOT,Gas CCGT,55097,1076,North,Gas CCGT
-VST,Odessa,Texas,ERCOT,Gas CCGT,55215,1054,West,Gas CCGT
-VST,Hays,Texas,ERCOT,Gas CCGT,55144,1047,South,Gas CCGT
-VST,Moss landing 1&2,West,CAISO,Gas CCGT,260,1020,NP-15,Gas CCGT
-VST,Lake Hubbard,Texas,ERCOT,Gas-Oil ST/CT,3452,921,North,Gas-Oil ST/CT
-VST,Lake Road,East,ISO-NE,Gas CCGT,55149,827,CT,Gas CCGT
-VST,Wise,Texas,ERCOT,Gas CCGT,55320,787,North,Gas CCGT
-VST,Fayette,East,PJM,Gas CCGT,55516,726,APS,Gas CCGT
-VST,Washington,East,PJM,Gas CCGT,55397,711,AEP,Gas CCGT
-VST,Stryker Creek,Texas,ERCOT,Gas-Oil ST/CT,3504,685,North,Gas-Oil ST/CT
-VST,Coleto Creek - ERCOT,Sunset,ERCOT,Coal,6178,650,South,Coal
-VST,Graham,Texas,ERCOT,Gas-Oil ST/CT,3490,630,West,Gas-Oil ST/CT
-VST,Netwton - MISO,Sunset,MISO,Coal,6017,615,Zone 4,Coal
-VST,Liberty,East,PJM,Gas CCGT,55231,607,PECO,Gas CCGT
-VST,Ontelaunee,East,PJM,Gas CCGT,55193,600,METED,Gas CCGT
-VST,Milford,East,ISO-NE,Gas CCGT,55126,600,CT,Gas CCGT
-VST,Bellingham,East,ISO-NE,Gas CCGT,55211,566,MA (SE),Gas CCGT
-VST,Blackstone,East,ISO-NE,Gas CCGT,55212,544,MA (NE),Gas CCGT
-VST,Casco Bay,East,ISO-NE,Gas CCGT,55068,543,ME,Gas CCGT
-VST,Richland,East,PJM,Gas-Oil ST/CT,2880,423,ATSI,Gas-Oil ST/CT
-VST,Morgan Creek,Texas,ERCOT,Gas-Oil ST/CT,3492,390,West,Gas-Oil ST/CT
-VST,Pleasants,East,PJM,Gas-Oil ST/CT,55349,388,APS,Gas-Oil ST/CT
-VST,Calumet,East,PJM,Gas-Oil ST/CT,55296,380,COMED,Gas-Oil ST/CT
-VST,Hopewell,East,PJM,Gas CCGT,10633,370,DOM,Gas CCGT
-VST,Ennis,Texas,ERCOT,Gas CCGT,55223,366,North,Gas CCGT
-VST,Sayreville,East,PJM,Gas CCGT,10308,349,PSEG,Gas CCGT
-VST,Permian Basin,Texas,ERCOT,Gas-Oil ST/CT,3494,325,West,Gas-Oil ST/CT
-VST,Masspower,East,ISO-NE,Gas CCGT,10726,281,MA (W),Gas CCGT
-VST,Miami Fort,East,PJM,Coal/Gas-Oil ST/CT,2832,1247,DEOK,Coal
-VST,Decordova,Texas,ERCOT,Gas-Oil ST/CT,8063,260,North,Gas-Oil ST/CT
-VST,Trinidad,Texas,ERCOT,Gas-Oil ST/CT,3507,244,North,Gas-Oil ST/CT
-VST,Dicks Creek,East,PJM,Gas-Oil ST/CT,2831,155,DEOK,Gas-Oil ST/CT
-NRG,Cedar Bayou,Texas,ERCOT,Gas-Oil ST/CT,3460,1494,Houston,Gas-Oil ST/CT
-NRG,Cedar Bayou 4,Texas,ERCOT,Gas CCGT,56806,504,Houston,Gas CCGT
-NRG,Greens Bayou,Texas,ERCOT,Gas-Oil ST/CT,3464,330,Houston,Gas-Oil ST/CT
-NRG,Gregory,Texas,ERCOT,Gas CCGT,55086,365,South,Gas CCGT
-NRG,Limestone,Texas,ERCOT,Coal,298,1660,North,Coal
-NRG,San Jacinto,Texas,ERCOT,Gas-Oil ST/CT,7325,160,Houston,Gas-Oil ST/CT
-NRG,T.H. Wharton,Texas,ERCOT,Gas CCGT/ST/CT,3469,1002,Houston,Gas CCGT
-NRG,W.A. Parish,Texas,ERCOT,Coal/Gas-Oil ST/CT,3470,3632,Houston,Coal
-NRG,Petra Nova Cogen,Texas,ERCOT,Gas-Oil ST/CT,58378,68,Houston,Gas-Oil ST/CT
-NRG,Astoria Turbines(d),  East ,NYISO,Gas-Oil ST/CT,55243,420,Zone J,Gas-Oil ST/CT
-NRG,Chalk Point,  East ,PJM,Coal/Gas-Oil ST/CT,1571,2553,DOM,Gas-Oil ST/CT
-NRG,Chalk Point,  East ,PJM,Gas-Oil ST/CT,61890,80,DOM,Gas-Oil ST/CT
-NRG,Fisk,  East ,PJM,Gas-Oil ST/CT,886,171,COMED,Gas-Oil ST/CT
-NRG,Indian River(e),  East ,PJM,Coal/Gas-Oil ST/CT,594,426,DPL,Coal
-NRG,Joliet(f),  East ,PJM,Gas-Oil ST/CT,50627,1381,COMED,Gas-Oil ST/CT
-NRG,Powerton,  East ,PJM,Coal,879,1538,COMED,Coal
-NRG,Vienna,  East ,PJM,Gas-Oil ST/CT,1564,167,DPL,Gas-Oil ST/CT
-NRG,Waukegan,  East ,PJM,Coal/Gas-Oil ST/CT,883,783,COMED,Coal
-NRG,Will County,  East ,PJM,Coal,884,510,COMED,Coal
-NRG,Cottonwood, West/Services/Other ,MISO,Gas CCGT,55358,1166,Zone 9,Gas CCGT
-NRG, Watson , Unconsolidated , CAISO ,Gas CCGT,50216,416,LADWP,Gas CCGT
-CEG,Colorado Bend II,ERCOT,ERCOT,Gas CCGT,60122,1143,Houston,Gas CCGT
-CEG,Wolf Hollow II,ERCOT,ERCOT,Gas CCGT,59812,1115,North,Gas CCGT
-CEG,Handley,ERCOT,ERCOT,Gas-Oil ST/CT,3491,1314,North,Gas-Oil ST/CT
-CEG,Eddystone,Mid-Atlantic,PJM,Coal/Gas-Oil ST/CT,3161,820,PECO,Gas-Oil ST/CT
-CEG,Perryman,Mid-Atlantic,PJM,Gas-Oil ST/CT,1556,404,BGE,Gas-Oil ST/CT
-CEG,Croydon,Mid-Atlantic,PJM,Gas-Oil ST/CT,8012,391,PECO,Gas-Oil ST/CT
-CEG,Handsome Lake,Mid-Atlantic,PJM,Gas-Oil ST/CT,55233,268,PENELEC,Gas-Oil ST/CT
-CEG,Richmond,Mid-Atlantic,PJM,Gas-Oil ST/CT,3168,98,PECO,Gas-Oil ST/CT
-CEG,Philadelphia Rd,Mid-Atlantic,PJM,Gas-Oil ST/CT,1557,61,BGE,Gas-Oil ST/CT
-CEG,Delaware,Mid-Atlantic,PJM,Gas-Oil ST/CT,3160,56,PECO,Gas-Oil ST/CT
-CEG,Southwark,Mid-Atlantic,PJM,Gas-Oil ST/CT,3170,52,PECO,Gas-Oil ST/CT
-CEG,Falls,Mid-Atlantic,PJM,Gas-Oil ST/CT,3162,51,PECO,Gas-Oil ST/CT
-CEG,Moser,Mid-Atlantic,PJM,Gas-Oil ST/CT,3163,51,PECO,Gas-Oil ST/CT
-CEG,Chester,Mid-Atlantic,PJM,Gas-Oil ST/CT,3157,39,PECO,Gas-Oil ST/CT
-CEG,Schuylkill,Mid-Atlantic,PJM,Gas-Oil ST/CT,3169,30,PECO,Gas-Oil ST/CT
-CEG,Mystic 8.9,Others,ISO-NE,Gas CCGT,1588,1413,MA (NE),Gas CCGT
-CEG,West Medway II,Others,ISO-NE,Gas-Oil ST/CT,59882,191,MA (SE),Gas-Oil ST/CT
-CEG,West Medway,Others,ISO-NE,Gas-Oil ST/CT,1592,124,MA (SE),Gas-Oil ST/CT
-CEG,Wyman 4,Others,ISO-NE,Gas-Oil ST/CT,1507,593,ME,Gas-Oil ST/CT
-CEG,Framingham,Others,ISO-NE,Gas-Oil ST/CT,1586,31,MA (SE),Gas-Oil ST/CT
-CEG,Hillabee,Others,SERC,Gas CCGT,55411,753,Southern,Gas CCGT
-TLNE,Barney Davis,West,ERCOT,Gas CCGT/ST/CT,4939,897,South,Gas CCGT
-TLNE,Nueces Bay,West,ERCOT,Gas CCGT,3441,635,South,Gas CCGT
-TLNE,Laredo,West,ERCOT,Gas-Oil ST/CT,3439,179,South,Gas-Oil ST/CT
-TLNE,Conemaugh,East,PJM,Coal/Gas-Oil ST/CT,3118,"1,756",PENELEC,Coal
-TLNE,Keystone,East,PJM,Coal/Gas-Oil ST/CT,3136,"1,735",APS,Coal
-TLNE,Martins Creek,East,PJM,Coal/Gas-Oil ST/CT,3148,"1,719",METED,Gas-Oil ST/CT
-TLNE,Montour,East,PJM,Coal,3149,"1,508",PPL,Coal
-TLNE,Brunner Island,East,PJM,Gas-Oil ST/CT,3140,"1,424",METED,Gas-Oil ST/CT
-TLNE,Brandon shores,East,PJM,Coal,602,"1,295",BGE,Coal
-TLNE,HA Wagner,East,PJM,Coal/Gas-Oil ST/CT,1554,827,BGE,Gas-Oil ST/CT
-TLNE,Lower Mt. Bethel,East,PJM,Gas CCGT,55667,610,METED,Gas CCGT
-TLNE,Camden,East,PJM,Gas CCGT,10751,145,ACE,Gas CCGT
-TLNE,Colstrip,East,NWMT,Coal,6076,"1,518",Mountain,Coal
-TLNE,Dartmouth,East,ISO-NE,Gas CCGT/ST/CT,52026,80,MA (SE),Gas CCGT
-Heritage Power,Shawville,,PJM,Gas-Oil ST/CT,3131,590,PENELEC,Gas-Oil ST/CT
-Heritage Power,Gilbert,,PJM,Gas CCGT/ST/CT,2393,499,JCPL,Gas CCGT
-Heritage Power,New Castle,,PJM,Gas-Oil ST/CT,3138,320,ATSI,Gas-Oil ST/CT
-Heritage Power,Brunot Island,,PJM,Gas CCGT/ST/CT,3096,279,DUQ,Gas CCGT
-Heritage Power,Sayreville,,PJM,Gas-Oil ST/CT,2390,280,PSEG,Gas-Oil ST/CT
-Heritage Power,Portland,,PJM,Gas-Oil ST/CT,3113,190,METED,Gas-Oil ST/CT
+VST,Kendall,East,PJM,Gas CCGT,55131,1256,COMED,Gas CCGT
+VST,Independence,East,NYISO,Gas CCGT,54547,1086,ME,Gas CCGT
+VST,Baldwin - MISO,Sunset,MISO,Coal,889,1260,Zone 4,Coal
+VST,Kincaid,Sunset,PJM,Coal,876,1319,COMED,Coal
+VST,Lamar,Texas,ERCOT,Gas CCGT,55097,1113,North,Gas CCGT
+VST,Odessa,Texas,ERCOT,Gas CCGT,55215,1153,West,Gas CCGT
+VST,Hays,Texas,ERCOT,Gas CCGT,55144,989,South,Gas CCGT
+VST,Moss landing 1&2,West,CAISO,Gas CCGT,260,1398,NP-15,Gas CCGT
+VST,Lake Hubbard,Texas,ERCOT,Gas-Oil ST/CT,3452,928,North,Gas-Oil ST/CT
+VST,Lake Road,East,ISO-NE,Gas CCGT,55149,840,CT,Gas CCGT
+VST,Wise,Texas,ERCOT,Gas CCGT,55320,822,North,Gas CCGT
+VST,Fayette,East,PJM,Gas CCGT,55516,644,APS,Gas CCGT
+VST,Washington,East,PJM,Gas CCGT,55397,715,AEP,Gas CCGT
+VST,Stryker Creek,Texas,ERCOT,Gas-Oil ST/CT,3504,703,North,Gas-Oil ST/CT
+VST,Coleto Creek - ERCOT,Sunset,ERCOT,Coal,6178,622,South,Coal
+VST,Graham,Texas,ERCOT,Gas-Oil ST/CT,3490,635,West,Gas-Oil ST/CT
+VST,Netwton - MISO,Sunset,MISO,Coal,6017,617,Zone 4,Coal
+VST,Liberty,East,PJM,Gas CCGT,55231,614,PECO,Gas CCGT
+VST,Ontelaunee,East,PJM,Gas CCGT,55193,728,METED,Gas CCGT
+VST,Milford,East,ISO-NE,Gas CCGT,55126,578,CT,Gas CCGT
+VST,Bellingham,East,ISO-NE,Gas CCGT,55211,578,MA (SE),Gas CCGT
+VST,Blackstone,East,ISO-NE,Gas CCGT,55212,578,MA (NE),Gas CCGT
+VST,Casco Bay,East,ISO-NE,Gas CCGT,55068,550,ME,Gas CCGT
+VST,Richland,East,PJM,Gas-Oil ST/CT,2880,435,ATSI,Gas-Oil ST/CT
+VST,Morgan Creek,Texas,ERCOT,Gas-Oil ST/CT,3492,536,West,Gas-Oil ST/CT
+VST,Pleasants,East,PJM,Gas-Oil ST/CT,55349,344,APS,Gas-Oil ST/CT
+VST,Calumet,East,PJM,Gas-Oil ST/CT,55296,313,COMED,Gas-Oil ST/CT
+VST,Hopewell,East,PJM,Gas CCGT,10633,303,DOM,Gas CCGT
+VST,Ennis,Texas,ERCOT,Gas CCGT,55223,418,North,Gas CCGT
+VST,Sayreville,East,PJM,Gas CCGT,10308,430,PSEG,Gas CCGT
+VST,Permian Basin,Texas,ERCOT,Gas-Oil ST/CT,3494,447,West,Gas-Oil ST/CT
+VST,Masspower,East,ISO-NE,Gas CCGT,10726,261,MA (W),Gas CCGT
+VST,Miami Fort,East,PJM,Coal/Gas-Oil ST/CT,2832,1115,DEOK,Coal
+VST,Decordova,Texas,ERCOT,Gas-Oil ST/CT,8063,358,North,Gas-Oil ST/CT
+VST,Trinidad,Texas,ERCOT,Gas-Oil ST/CT,3507,239,North,Gas-Oil ST/CT
+VST,Dicks Creek,East,PJM,Gas-Oil ST/CT,2831,159,DEOK,Gas-Oil ST/CT
+NRG,Cedar Bayou,Texas,ERCOT,Gas-Oil ST/CT,3460,1530,Houston,Gas-Oil ST/CT
+NRG,Cedar Bayou 4,Texas,ERCOT,Gas CCGT,56806,536,Houston,Gas CCGT
+NRG,Greens Bayou,Texas,ERCOT,Gas-Oil ST/CT,3464,432,Houston,Gas-Oil ST/CT
+NRG,Gregory,Texas,ERCOT,Gas CCGT,55086,432,South,Gas CCGT
+NRG,Limestone,Texas,ERCOT,Coal,298,1850,North,Coal
+NRG,San Jacinto,Texas,ERCOT,Gas-Oil ST/CT,7325,176,Houston,Gas-Oil ST/CT
+NRG,T.H. Wharton,Texas,ERCOT,Gas CCGT/ST/CT,3469,664,Houston,Gas CCGT
+NRG,W.A. Parish,Texas,ERCOT,Coal/Gas-Oil ST/CT,3470,1272,Houston,Coal
+NRG,Petra Nova Cogen,Texas,ERCOT,Gas-Oil ST/CT,58378,103,Houston,Gas-Oil ST/CT
+NRG,Astoria Turbines(d),  East ,NYISO,Gas-Oil ST/CT,55243,503,Zone J,Gas-Oil ST/CT
+NRG,Chalk Point,  East ,PJM,Coal/Gas-Oil ST/CT,1571,728,DOM,Gas-Oil ST/CT
+NRG,Chalk Point,  East ,PJM,Gas-Oil ST/CT,61890,94,DOM,Gas-Oil ST/CT
+NRG,Fisk,  East ,PJM,Gas-Oil ST/CT,886,260,COMED,Gas-Oil ST/CT
+NRG,Indian River(e),  East ,PJM,Coal/Gas-Oil ST/CT,594,446,DPL,Coal
+NRG,Joliet(f),  East ,PJM,Gas-Oil ST/CT,50627,40,COMED,Gas-Oil ST/CT
+NRG,Powerton,  East ,PJM,Coal,879,1786,COMED,Coal
+NRG,Vienna,  East ,PJM,Gas-Oil ST/CT,1564,181,DPL,Gas-Oil ST/CT
+NRG,Waukegan,  East ,PJM,Coal/Gas-Oil ST/CT,883,112,COMED,Coal
+NRG,Will County,  East ,PJM,Coal,884,598,COMED,Coal
+NRG,Cottonwood, West/Services/Other ,MISO,Gas CCGT,55358,1434,Zone 9,Gas CCGT
+NRG, Watson , Unconsolidated , CAISO ,Gas CCGT,50216,405,LADWP,Gas CCGT
+CEG,Colorado Bend II,ERCOT,ERCOT,Gas CCGT,60122,1230,Houston,Gas CCGT
+CEG,Wolf Hollow II,ERCOT,ERCOT,Gas CCGT,59812,1231,North,Gas CCGT
+CEG,Handley,ERCOT,ERCOT,Gas-Oil ST/CT,3491,1315,North,Gas-Oil ST/CT
+CEG,Eddystone,Mid-Atlantic,PJM,Coal/Gas-Oil ST/CT,3161,782,PECO,Gas-Oil ST/CT
+CEG,Perryman,Mid-Atlantic,PJM,Gas-Oil ST/CT,1556,333,BGE,Gas-Oil ST/CT
+CEG,Croydon,Mid-Atlantic,PJM,Gas-Oil ST/CT,8012,546,PECO,Gas-Oil ST/CT
+CEG,Handsome Lake,Mid-Atlantic,PJM,Gas-Oil ST/CT,55233,295,PENELEC,Gas-Oil ST/CT
+CEG,Richmond,Mid-Atlantic,PJM,Gas-Oil ST/CT,3168,132,PECO,Gas-Oil ST/CT
+CEG,Philadelphia Rd,Mid-Atlantic,PJM,Gas-Oil ST/CT,1557,83,BGE,Gas-Oil ST/CT
+CEG,Delaware,Mid-Atlantic,PJM,Gas-Oil ST/CT,3160,77,PECO,Gas-Oil ST/CT
+CEG,Southwark,Mid-Atlantic,PJM,Gas-Oil ST/CT,3170,74,PECO,Gas-Oil ST/CT
+CEG,Falls,Mid-Atlantic,PJM,Gas-Oil ST/CT,3162,64,PECO,Gas-Oil ST/CT
+CEG,Moser,Mid-Atlantic,PJM,Gas-Oil ST/CT,3163,64,PECO,Gas-Oil ST/CT
+CEG,Chester,Mid-Atlantic,PJM,Gas-Oil ST/CT,3157,56,PECO,Gas-Oil ST/CT
+CEG,Schuylkill,Mid-Atlantic,PJM,Gas-Oil ST/CT,3169,40,PECO,Gas-Oil ST/CT
+CEG,Mystic 8.9,Others,ISO-NE,Gas CCGT,1588,1744,MA (NE),Gas CCGT
+CEG,West Medway II,Others,ISO-NE,Gas-Oil ST/CT,59882,200,MA (SE),Gas-Oil ST/CT
+CEG,West Medway,Others,ISO-NE,Gas-Oil ST/CT,1592,135,MA (SE),Gas-Oil ST/CT
+CEG,Wyman 4,Others,ISO-NE,Gas-Oil ST/CT,1507,846,ME,Gas-Oil ST/CT
+CEG,Framingham,Others,ISO-NE,Gas-Oil ST/CT,1586,43,MA (SE),Gas-Oil ST/CT
+CEG,Hillabee,Others,SERC,Gas CCGT,55411,823,Southern,Gas CCGT
+TLNE,Barney Davis,West,ERCOT,Gas CCGT/ST/CT,4939,730,South,Gas CCGT
+TLNE,Nueces Bay,West,ERCOT,Gas CCGT,3441,730,South,Gas CCGT
+TLNE,Laredo,West,ERCOT,Gas-Oil ST/CT,3439,264,South,Gas-Oil ST/CT
+TLNE,Conemaugh,East,PJM,Coal/Gas-Oil ST/CT,3118,1951,PENELEC,Coal
+TLNE,Keystone,East,PJM,Coal/Gas-Oil ST/CT,3136,1872,APS,Coal
+TLNE,Martins Creek,East,PJM,Coal/Gas-Oil ST/CT,3148,1794,METED,Gas-Oil ST/CT
+TLNE,Montour,East,PJM,Coal,3149,1758,PPL,Coal
+TLNE,Brunner Island,East,PJM,Gas-Oil ST/CT,3140,1616,METED,Gas-Oil ST/CT
+TLNE,Brandon shores,East,PJM,Coal,602,1370,BGE,Coal
+TLNE,HA Wagner,East,PJM,Coal/Gas-Oil ST/CT,1554,359,BGE,Gas-Oil ST/CT
+TLNE,Lower Mt. Bethel,East,PJM,Gas CCGT,55667,652,METED,Gas CCGT
+TLNE,Camden,East,PJM,Gas CCGT,10751,173,ACE,Gas CCGT
+TLNE,Colstrip,East,NWMT,Coal,6076,1647,Mountain,Coal
+TLNE,Dartmouth,East,ISO-NE,Gas CCGT/ST/CT,52026,74,MA (SE),Gas CCGT
+Heritage Power,Shawville,,PJM,Gas-Oil ST/CT,3131,626,PENELEC,Gas-Oil ST/CT
+Heritage Power,Gilbert,,PJM,Gas CCGT/ST/CT,2393,351,JCPL,Gas CCGT
+Heritage Power,New Castle,,PJM,Gas-Oil ST/CT,3138,348,ATSI,Gas-Oil ST/CT
+Heritage Power,Brunot Island,,PJM,Gas CCGT/ST/CT,3096,340,DUQ,Gas CCGT
+Heritage Power,Sayreville,,PJM,Gas-Oil ST/CT,2390,212,PSEG,Gas-Oil ST/CT
+Heritage Power,Portland,,PJM,Gas-Oil ST/CT,3113,194,METED,Gas-Oil ST/CT
 Heritage Power,Hunterstow n,,PJM,Gas-Oil ST/CT,3110,60,METED,Gas-Oil ST/CT
-Heritage Power,Warren,,PJM,Gas-Oil ST/CT,3132,50,PENELEC,Gas-Oil ST/CT
-Heritage Power,Mountain,,PJM,Gas-Oil ST/CT,3111,50,PPL,Gas-Oil ST/CT
-Heritage Power,Tolna,,PJM,Gas-Oil ST/CT,3116,50,METED,Gas-Oil ST/CT
-Heritage Power,Titus,,PJM,Gas-Oil ST/CT,3115,35,METED,Gas-Oil ST/CT
-Heritage Power,Niles,,PJM,Gas-Oil ST/CT,2861,30,ATSI,Gas-Oil ST/CT
-Heritage Power,Orrtanna,,PJM,Gas-Oil ST/CT,3112,26,METED,Gas-Oil ST/CT
-Heritage Power,Hamilton,,PJM,Gas-Oil ST/CT,3109,24,METED,Gas-Oil ST/CT
-Heritage Power,Shaw nee,,PJM,Gas-Oil ST/CT,3114,24,PPL,Gas-Oil ST/CT
-Heritage Power,Blossburg,,PJM,Gas-Oil ST/CT,3120,19,PENELEC,Gas-Oil ST/CT
+Heritage Power,Warren,,PJM,Gas-Oil ST/CT,3132,53,PENELEC,Gas-Oil ST/CT
+Heritage Power,Mountain,,PJM,Gas-Oil ST/CT,3111,54,PPL,Gas-Oil ST/CT
+Heritage Power,Tolna,,PJM,Gas-Oil ST/CT,3116,54,METED,Gas-Oil ST/CT
+Heritage Power,Titus,,PJM,Gas-Oil ST/CT,3115,36,METED,Gas-Oil ST/CT
+Heritage Power,Niles,,PJM,Gas-Oil ST/CT,2861,27,ATSI,Gas-Oil ST/CT
+Heritage Power,Orrtanna,,PJM,Gas-Oil ST/CT,3112,27,METED,Gas-Oil ST/CT
+Heritage Power,Hamilton,,PJM,Gas-Oil ST/CT,3109,20,METED,Gas-Oil ST/CT
+Heritage Power,Shaw nee,,PJM,Gas-Oil ST/CT,3114,20,PPL,Gas-Oil ST/CT
+Heritage Power,Blossburg,,PJM,Gas-Oil ST/CT,3120,24,PENELEC,Gas-Oil ST/CT
